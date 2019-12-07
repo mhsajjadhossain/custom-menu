@@ -15,9 +15,15 @@
     .expent-md .container {
         position: relative;
     }
+
+    .expent-md .nav-menu {
+        text-align: center;
+    }
+
     .expent-md .menu-item {
         display: block;
     }
+
     .expent-md .toggler-button button {
         display: inline-block;
         position: absolute;
@@ -25,7 +31,8 @@
         top: 0;
         cursor: pointer;
     }
-    .toggler-button button span{
+
+    .toggler-button button span {
         position: relative;
         transform: rotate(0);
         -webkit-transform: rotate(0);
@@ -38,16 +45,21 @@
         -ms-transition: all .3s linear;
         -o-transition: all .3s linear;
         opacity: 1;
-}
-    .toggler-button button.active span:nth-of-type(1){
+    }
+
+    .toggler-button button.active span:nth-of-type(1) {
         -webkit-transform: rotate(46deg);
         transform: rotate(46deg);
         top: 8px;
-        
-}
-    .toggler-button button.active span:nth-of-type(2){
+        -moz-transform: rotate(46deg);
+        -ms-transform: rotate(46deg);
+        -o-transform: rotate(46deg);
+    }
+
+    .toggler-button button.active span:nth-of-type(2) {
         opacity: 0;
     }
+
     .toggler-button button.active span:nth-of-type(3) {
         transform: rotate(135deg);
         top: -8px;
@@ -55,7 +67,8 @@
         -moz-transform: rotate(135deg);
         -ms-transform: rotate(135deg);
         -o-transform: rotate(135deg);
-}
+    }
+
     .expent-md .menu-item a {
         padding: 15px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -75,8 +88,9 @@
         -moz-transition: all .5s linear;
         -ms-transition: all .5s linear;
         -o-transition: all .5s linear;
-}
-    .expent-md .active.nav-menu{
+    }
+
+    .expent-md .active.nav-menu {
         left: -30%;
         height: 100vh;
 
@@ -89,9 +103,15 @@
     .expent-md .container {
         position: relative;
     }
+
+    .expent-md .nav-menu {
+        text-align: center;
+    }
+
     .expent-md .menu-item {
         display: block;
     }
+
     .expent-md .toggler-button button {
         display: inline-block;
         position: absolute;
@@ -99,6 +119,44 @@
         top: 0;
         cursor: pointer;
     }
+
+    .toggler-button button span {
+        position: relative;
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        opacity: 1;
+    }
+
+    .toggler-button button.active span:nth-of-type(1) {
+        -webkit-transform: rotate(46deg);
+        transform: rotate(46deg);
+        top: 8px;
+        -moz-transform: rotate(46deg);
+        -ms-transform: rotate(46deg);
+        -o-transform: rotate(46deg);
+    }
+
+    .toggler-button button.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .toggler-button button.active span:nth-of-type(3) {
+        transform: rotate(135deg);
+        top: -8px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+    }
+
     .expent-md .menu-item a {
         padding: 15px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -118,8 +176,9 @@
         -moz-transition: all .5s linear;
         -ms-transition: all .5s linear;
         -o-transition: all .5s linear;
-}
-    .expent-md .active.nav-menu{
+    }
+
+    .expent-md .active.nav-menu {
         left: -30%;
         height: 100vh;
 
