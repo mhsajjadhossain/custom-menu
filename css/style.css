@@ -1,0 +1,187 @@
+/*
+  Theme Name: Name - 
+  Author: Humayun Ahmed
+  Support: humayunahmed82@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+*{
+    margin: 0;
+    padding: 0;
+}
+.img {
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover{
+	text-decoration: none;
+}
+
+span,
+a{
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #1d2025;
+	margin-top: 0px;
+}
+
+h1 {
+	font-weight: 500;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul,ol {
+	margin: 0px;
+	padding: 0px;
+    list-style-type: none;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #909291;
+	margin-bottom: 0px;
+}
+
+.bg_cover{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*===========================
+    2.HEADER css 
+===========================*/
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	position: relative;
+}
+body.active{
+	overflow-y: hidden;
+}
+body::before{
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 9;
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+}
+body.active::before{
+	opacity: 1;
+	visibility: visible;
+}
+nav{
+	position: relative;
+	z-index: 999;
+}
+.nav-menu{
+	width: 100%;
+	text-align: right;
+}
+.brand-logo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu-item{
+	display: inline-block;
+}
+.menu-item a{
+	display: block;
+	padding: 30px 0;
+	padding-left: 30px;
+	
+}
+
+.toggler-button button{
+	background: transparent;
+	border: 0;
+	outline: 0;
+	float: right;
+	padding-top: 28px;
+	display: none;
+}
+.toggler-button button span{
+	display: block;
+	width: 30px;
+	height: 3px;
+	background: #f1f1f1;
+	margin: 5px 0;
+}
